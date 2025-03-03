@@ -1,4 +1,8 @@
-const apiUrl = 'http://localhost:5000/api/agentes'; 
+//variable que se inicializa asi cuando corre local
+//const apiUrl = 'http://localhost:5000/api/agentes'; 
+
+//variable que se inicializa asi cuando corre en render
+const apiUrl = 'https://despachospf.onrender.com/api/agentes';
 let agentesData = [];
 let currentPage = 1;
 let rowsPerPage = 5;
