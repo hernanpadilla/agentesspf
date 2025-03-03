@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.card-header.bg-primary {
+    background-color: #007bff !important;
+}
+
+.info {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.pagination button {
+    cursor: pointer;
+}
+
+#loader img {
+    width: 50px;
+}
