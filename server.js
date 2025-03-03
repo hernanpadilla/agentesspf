@@ -29,6 +29,11 @@ db.getConnection()
         process.exit(1); // Detener el servidor si no se puede conectar
     });
 
+//Mensaje que esta funcionando en render
+app.get('/', (req, res) => {
+    res.send('Backend funcionando en Render 🚀');
+});
+
 // Validación de datos
 function validateAgentData(data) {
     const { grado, nombre, credencial, cuil, sector } = data;
